@@ -13,4 +13,15 @@ public class FunRestController {
 	public String sayHello() {
 		return "Hello World! - Time is " + LocalDateTime.now();
 	}
+	
+	// ENDPOINT MAPPING - WORKOUT
+	@GetMapping("/workout")
+	public String getWorkout() {
+		return "Run 5K GOO!";
+	}
+	
+	@GetMapping("/getluck")
+	public String getLuckyDay() {
+		return "Today is for lucky day!!!";
+	}
 }
