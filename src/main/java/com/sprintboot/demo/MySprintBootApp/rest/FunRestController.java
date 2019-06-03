@@ -20,6 +20,7 @@ public class FunRestController {
 		return "Run 5K GOO!";
 	}
 	
+	// ENDPOINT MAPPING - GETLUCKY
 	@GetMapping("/getluck")
 	public String getLuckyDay() {
 		return "Today is for lucky day!!!";
